@@ -1,0 +1,101 @@
+@media only screen and (max-width: 480px){
+    #side-nav i{
+        font-size: 18px;
+        padding-left: 12px;
+    }
+    .header{
+        filter: brightness(100%);
+    }
+
+    #nav-wrapper{
+        padding-top: 12px;
+        gap: 9px;
+    }
+    #close-nav{
+        margin-left: 18px;
+    }
+    #close-nav i{
+        font-size: 18px;
+    }
+    #nav-img{
+        margin-top: 3px;
+        height: 60px;
+        width: 60px;
+    }
+    #nav-wrapper a{
+        padding-bottom: 12px;
+        font-size: 12px;
+        margin-left: 12px;
+    }
+    #home{
+        margin-top: 24px;
+    }
+    #form{
+        padding-right: 12px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    #form i{
+        font-size: 12px;
+        padding-right: 6px;
+    }
+
+    #brand-banner{
+        height: 100px;
+        width: 190px;
+        margin-top: -32px;
+    }
+    #promo-banner{
+        height: 180px;
+        width: 96%;
+        background-size: 100% 100%;
+        margin-top: -20px;
+        margin-bottom: 24px;
+    }
+    #promo-wrapper{
+        padding: 12px;
+    }
+    #promo-wrapper h2{
+        font-size: 32px;
+        margin-top: -6px;
+    }
+    #promo-wrapper h3{
+        width: 100px;
+        font-size: 32px;
+    }
+    #promo-wrapper h4{
+        font-size: 12px;
+        padding-top: 6px;
+        width: 50%;
+    }
+    #promo-wrapper h5{
+        font-size: 12px;
+        padding-block: 12px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: -16px;
+    }
+    #promo-btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+    #buy-now{
+        border-radius: 32px;
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+        padding: 8px;
+    }
+    #view-more{
+        border-radius: 32px;
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+        padding: 8px;
+        background-color: #FADA7A;
+    }
+}
