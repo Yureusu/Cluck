@@ -1,0 +1,88 @@
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.header{
+    height: 48px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FADA7A;
+}
+#side-nav i{
+    font-size: 30px;
+    padding-left: 24px;
+    cursor: pointer;
+}
+#side-nav i:hover{
+    color: #F0A04B;
+}
+#open-side{
+    display: block;
+    width: 0px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #F0A04B;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+#nav-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 12px;
+    gap: 18px;
+}
+#close-nav{
+    align-self: flex-start;
+    margin-left: 26px;
+    cursor: pointer;
+}
+#close-nav i{
+    font-size: 28px;
+}
+#close-nav i:hover{
+    color: #FADA7A;
+}
+#nav-img{
+    height: 120px;
+    width: 120;
+}
+#nav-wrapper a{
+    width: 80%;
+    padding-bottom: 12px;
+    border-bottom: 2px dotted black;
+    color: black;
+}
+#nav-wrapper a:hover{
+    color: #FADA7A;
+}
+#home{
+    margin-top: 12px;
+}
+#form{
+    padding-right: 24px;
+    cursor: pointer;
+}
+#form:hover{
+    color: #F0A04B;
+}
+#form i{
+    font-size: 18px;
+    padding-right: 12px;
+    cursor: pointer;
+}
+.form-container{
+    height: auto;
+    width: auto;
+}
